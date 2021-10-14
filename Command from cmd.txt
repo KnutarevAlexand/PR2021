@@ -1,0 +1,27 @@
+Конференция Валерия Антонова 73996432410 / 1111
+
+1) генерация документации к коду
+javadoc -d doc -author *.java
+пример:
+/**
+Демонстрационный класс
+@author Alexandr Knutarev
+*/
+
+public class Class1 {
+
+/**метод main предназначен для запуска приложения
+@autor Alaxandr Knutarev
+@param args аргументы
+@param num что-то
+*/
+
+
+1) Deploy
+компиляция с ипользованием командной строки javac
+C:\JDeveloper\mywork\javaprogramming\KnutarevAlexandr\20210723\src>javac -d classes_manual -sourcepath src  src\test07\lab\frontend\D.java
+создание jar-архива 
+C:\JDeveloper\mywork\javaprogramming\KnutarevAlexandr\20210723\classes_manual>jar -cvf archive.jar *
+
+2) Run application
+C:\JDeveloper\mywork\javaprogramming\KnutarevAlexandr\20210723\classes_manual>java -classpath C:\JDeveloper\mywork\javaprogramming\KnutarevAlexandr\20210723\classes_manual\archive.jar test07.lab.frontend.D

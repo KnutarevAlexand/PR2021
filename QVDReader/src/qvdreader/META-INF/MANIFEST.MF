@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.8.3
+Created-By: 1.6.0_19-b04 (Sun Microsystems Inc.)
+Class-Path: lib/jdbm-3.0-SNAPSHOT.jar lib/opencsv-2.3.jar lib/commons-
+ io-2.4.jar
+X-COMMENT: Main-Class will be added automatically by build
+Main-Class: QVDSearchSymbols
+
