@@ -40,6 +40,10 @@ public class ListFileDirHDFS {
         for (String str : filePaths) {                       
              System.out.println(str);
             }
+        int num = filePaths.size();
+        
+        
+        System.out.println("Кол-во элементов: " + num);
 }
 
 
