@@ -76,6 +76,13 @@
          <string v="XML"/>
       </list>
    </hash>
+   <hash n="oracle.jdeveloper.ant.AntRunConfiguration">
+      <hash n="jdkVersion">
+         <url n="id" path="../../../../../Users/operator/AppData/Roaming/JDeveloper/system12.2.1.4.42.190911.2248/o.jdeveloper/1.8.0_311.jdk"/>
+         <value n="isJDK" v="true"/>
+         <value n="jdkVersion" v="1.8.0_311"/>
+      </hash>
+   </hash>
    <hash n="oracle.jdeveloper.compiler.OjcConfiguration">
       <value n="webIANAEncoding" v="windows-1251"/>
    </hash>

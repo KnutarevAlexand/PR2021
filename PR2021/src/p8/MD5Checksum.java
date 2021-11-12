@@ -40,7 +40,7 @@ public class MD5Checksum {
    public static void main(String args[]) {
        try {
            //System.out.println(getMD5Checksum("D:/100mb.001"));
-           System.out.println(getMD5Checksum("C:\\PR2021-master.zip"));
+           System.out.println(getMD5Checksum("D:\\15_05_11_SSR_50996_83E73535A56D1F4CBC8F47EB685C6808.wav"));
            // output :
            //  0bb2827c5eacf570b6064e24e0e6653b
            // ref :
